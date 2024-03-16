@@ -1,0 +1,16 @@
+.note-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #DAE5F5;
+}
+
+/* all gets stick due to position absolute */
+.note-container-notes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute; 
+    bottom: 0;
+    min-width: 100%;
+}
